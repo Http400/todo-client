@@ -4,6 +4,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `git submodule update --init --recursive`
+
+Pulls GIT Submodule.
+
+### `git submodule update --remote --merge`
+
+Updates GIT Submodule.
+
 ### `npm start`
 
 Runs the app in the development mode.<br />
