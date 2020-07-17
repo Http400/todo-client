@@ -1,0 +1,18 @@
+@import '../../settings';
+
+.auth {
+    display: flex;
+    justify-content: center;
+    margin: 80px 0;
+
+    & > div {
+        @media only screen and (min-width: $screen-xs) {
+            width: 500px;
+        }
+
+        & > button {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}

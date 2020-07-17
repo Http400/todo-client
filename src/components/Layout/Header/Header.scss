@@ -1,0 +1,23 @@
+@import '../../../settings';
+
+.header {
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    @media only screen and (max-width: $screen-sm - 1px) {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .navigation-items {
+        @media only screen and (max-width: $screen-sm - 1px) {
+            display: none;
+        }
+    }
+
+    .header__side-menu-button {
+        @media only screen and (min-width: $screen-sm) {
+            display: none;
+        }
+    }
+}

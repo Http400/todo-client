@@ -1,0 +1,13 @@
+@import '../../../settings';
+
+.footer {
+    padding: 1rem 2rem;
+    background-color: #595959;
+    display: flex;
+    justify-content: center;
+    color: white;
+
+    @media only screen and (max-width: $screen-sm - 1px) {
+        padding: 1rem;
+    }
+}

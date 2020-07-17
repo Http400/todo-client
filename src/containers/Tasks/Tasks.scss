@@ -1,0 +1,37 @@
+@import '../../settings';
+
+.tasks__pagination {
+    margin-top: 1rem;
+}
+
+.tasks__tasks-table-settings {
+    @media only screen and (max-width: $screen-md - 1px) {
+        margin-top: 2rem;
+    }
+
+    & > div:not(:first-of-type) {
+        @media only screen and (min-width: $screen-md) {
+            margin-left: 1rem;
+        }
+        @media only screen and (max-width: $screen-md - 1px) {
+            margin-top: .5rem;
+        }
+    }
+}
+
+.tasks__task-card {
+    &--priority {
+        &-low {
+            background-color: #f6ffed;
+        }
+        &-medium {
+            background-color: #feffe6;
+        }
+        &-high {
+            background-color: #fff7e6;
+        }
+        &-very-high {
+            background-color: #fff1f0;
+        }
+    }
+}

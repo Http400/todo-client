@@ -1,0 +1,14 @@
+@import '../../../settings';
+
+.content {
+    min-height: calc(100vh - 64px - 54px);
+    padding: 1rem 2rem 4rem;
+
+    @media only screen and (max-width: $screen-sm - 1px) {
+        padding: 1rem;
+    }
+
+    .ant-breadcrumb {
+        margin-bottom: 2rem;
+    }
+}
